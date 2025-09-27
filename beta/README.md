@@ -1,4 +1,4 @@
-![Banner](../Resources/banner.png)
+![Banner](../Resources/banner.webp)
 
 # VCollab Beta Documentation
 
