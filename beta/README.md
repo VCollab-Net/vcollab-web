@@ -22,6 +22,7 @@ The main objective of the beta testing of VCollab is to make the software better
   - [Using discord invitations](#using-discord-invitations)
 - [Privacy/Security concerns](#privacysecurity-concerns)
 - [Planned features](#planned-features)
+- [Known Issues](#known-issues)
 - [Make a bug report](#make-a-bug-report)
 
 
@@ -151,6 +152,15 @@ VCollab is still a software in early access beta version, here is a non-exhausti
 - Model downscaler (to send a smaller version of your model over the network without having to change in side in your vtubing model)
 - More feedback in UI (notifications, alerts, ...)
 - And many more, any suggestion is welcome
+
+## Known Issues
+
+VCollab is a software in beta version and may contain some bugs and issues. If you encounter a bug or crash, please make a bug report by following the instructions in [Make a bug report](#make-a-bug-report).
+Here are the known issues so far:
+- There is a really low but non-zero probability of VCollab crashing when exiting the Source Setup screen (just restart the application if it happens)
+- If the network bandwidth available is not sufficient, other participants may not receive any model image and no message is played to warn the user about this. In case you notice this issue, please try to reduce the size of the source region rectangle in the Source Setup page (this will lower the internet usage)
+- Is is not possible to leave a collaboration once created or joined. It is required to exit and restart the software to join another collaboration.
+- No message is displayed if joining a collaboration that does not exist (invalid code or network error)
 
 ## Make a bug report
 
